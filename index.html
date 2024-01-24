@@ -23,8 +23,11 @@
     />
 
     <!-- Font awesome -->
-    <script src="https://kit.fontawesome.com/9384290d47.js" crossorigin="anonymous"></script>
-    
+    <script
+      src="https://kit.fontawesome.com/9384290d47.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- tailwind custom color -->
     <script>
       tailwind.config = {
@@ -48,62 +51,126 @@
   <body class="font-manrope">
     <!-- Header Section Start -->
     <header>
+      <!-- banner section -->
+      <div class="carousel h-[600px] w-3/4 rounded-lg">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/2.png" class="w-full" />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/3.png" class="w-full" />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="lg:flex sm:flex-auto justify-between">
+          <div>
+            <div class="radial-progress text-primary" style="--value:70;" role="progressbar">87%</div>
+            <h5>Prayer Facility</h5>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+          
+          <div>
+            <div class="radial-progress text-primary" style="--value:70;" role="progressbar">95%</div>
+            <h5>Experienced Coach</h5>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            
+          </div>
+  
+          <div>
+            <div class="radial-progress text-primary" style="--value:70;" role="progressbar">90%</div>
+            <h5>Senior Player</h5>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            
+          </div>
+  
+          <div>
+            <div class="radial-progress text-primary" style="--value:70;" role="progressbar">80%</div>
+            <h5>Training Ground</h5>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            
+          </div>
+          
+        </div>
+        
+      </section>
     </header>
     <!-- Header Section End -->
 
     <!----------------------------------------------------------------------------->
 
     <!-- Main Section Start -->
-    <main>
-
-    </main>
+    <main></main>
     <!-- Main Section End -->
 
     <!----------------------------------------------------------------------------->
 
     <!-- footer Section Start -->
-    <footer class="footer p-10 bg-[#131318]  text-base-content ">
-        <aside>
-          <h3 class="text-4xl font-extrabold text-[#FFF]">Get In Touch</h3>
-          <p class="text-[#FFFFFF] opacity-60">Feel free to mail or call us <br>if you have any query. </p>
-          <div>
-            <div class="flex gap-4 justify-center items-center text-[#FFFFFF] opacity-60">
-                <i class="fa-regular fa-envelope "></i>
-                <p>hockeys@support.com</p>
-            </div>
-            <div class="flex gap-4 text-[#FFFFFF] opacity-60">
-                <i class="fa-solid fa-phone"></i>
-                <p>(+62) 123-321-543</p>
-            </div>
+    <footer class="footer p-10 bg-[#131318] text-base-content">
+      <aside>
+        <h3 class="text-4xl font-extrabold text-[#FFF]">Get In Touch</h3>
+        <p class="text-[#FFFFFF] opacity-60">
+          Feel free to mail or call us <br />if you have any query.
+        </p>
+        <div>
+          <div
+            class="flex gap-4 justify-center items-center text-[#FFFFFF] opacity-60"
+          >
+            <i class="fa-regular fa-envelope"></i>
+            <p>hockeys@support.com</p>
           </div>
-        </aside> 
+          <div class="flex gap-4 text-[#FFFFFF] opacity-60">
+            <i class="fa-solid fa-phone"></i>
+            <p>(+62) 123-321-543</p>
+          </div>
+        </div>
+      </aside>
 
-        <nav class="text-[#FFFFFF] opacity-60">
-          <header class="footer-title">Company</header> 
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Leadership</a>
-          <a class="link link-hover">Careers</a>
-          <a class="link link-hover">News & Article</a>
-          <a class="link link-hover">Legal Notice</a>
-        </nav> 
+      <nav class="text-[#FFFFFF]">
+        <header class="footer-title">Company</header>
+        <a class="link link-hover opacity-60">About us</a>
+        <a class="link link-hover opacity-60">Leadership</a>
+        <a class="link link-hover opacity-60">Careers</a>
+        <a class="link link-hover opacity-60">News & Article</a>
+        <a class="link link-hover opacity-60">Legal Notice</a>
+      </nav>
 
-        <nav class="text-[#FFFFFF] opacity-60">
-          <header class="footer-title">Support</header> 
-          <a class="link link-hover">Help Center</a>
-          <a class="link link-hover">FAQ</a>
-          <a class="link link-hover">Ticket Support</a>
-          <a class="link link-hover">Contact Us</a>
-        </nav> 
+      <nav class="text-[#FFFFFF]">
+        <header class="footer-title">Support</header>
+        <a class="link link-hover opacity-60">Help Center</a>
+        <a class="link link-hover opacity-60">FAQ</a>
+        <a class="link link-hover opacity-60">Ticket Support</a>
+        <a class="link link-hover opacity-60">Contact Us</a>
+      </nav>
 
-        <nav class="text-[#FFFFFF] opacity-60">
-          <header class="footer-title ">Services</header> 
-          <a class="link link-hover">Academy</a>
-          <a class="link link-hover">Private Lesson</a>
-          <a class="link link-hover">Hockeys for kids</a>
-          <a class="link link-hover">Hockeys for Adult</a>
-        </nav>
-      </footer>
+      <nav class="text-[#FFFFFF]">
+        <header class="footer-title">Services</header>
+        <a class="link link-hover opacity-60">Academy</a>
+        <a class="link link-hover opacity-60">Private Lesson</a>
+        <a class="link link-hover opacity-60">Hockeys for kids</a>
+        <a class="link link-hover opacity-60">Hockeys for Adult</a>
+      </nav>
+    </footer>
     <!-- Footer Section End -->
   </body>
 </html>

@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-3</title>
+
+    <!-- Tailwind and daisy Ui -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- ----------------------------------------------------- -->
+    <!-- Font manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/9384290d47.js" crossorigin="anonymous"></script>
     
-</body>
+    <!-- tailwind custom color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- .................................................. -->
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="font-manrope">
+    <!-- Header Section Start -->
+    <header>
+
+    </header>
+    <!-- Header Section End -->
+
+    <!----------------------------------------------------------------------------->
+
+    <!-- Main Section Start -->
+    <main>
+
+    </main>
+    <!-- Main Section End -->
+
+    <!----------------------------------------------------------------------------->
+
+    <!-- footer Section Start -->
+    <footer class="footer p-10 bg-[#131318]  text-base-content ">
+        <aside>
+          <h3 class="text-4xl font-extrabold text-[#FFF]">Get In Touch</h3>
+          <p class="text-[#FFFFFF] opacity-60">Feel free to mail or call us <br>if you have any query. </p>
+          <div>
+            <div class="flex gap-4 justify-center items-center text-[#FFFFFF] opacity-60">
+                <i class="fa-regular fa-envelope "></i>
+                <p>hockeys@support.com</p>
+            </div>
+            <div class="flex gap-4 text-[#FFFFFF] opacity-60">
+                <i class="fa-solid fa-phone"></i>
+                <p>(+62) 123-321-543</p>
+            </div>
+          </div>
+        </aside> 
+
+        <nav class="text-[#FFFFFF] opacity-60">
+          <header class="footer-title">Company</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Leadership</a>
+          <a class="link link-hover">Careers</a>
+          <a class="link link-hover">News & Article</a>
+          <a class="link link-hover">Legal Notice</a>
+        </nav> 
+
+        <nav class="text-[#FFFFFF] opacity-60">
+          <header class="footer-title">Support</header> 
+          <a class="link link-hover">Help Center</a>
+          <a class="link link-hover">FAQ</a>
+          <a class="link link-hover">Ticket Support</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav> 
+
+        <nav class="text-[#FFFFFF] opacity-60">
+          <header class="footer-title ">Services</header> 
+          <a class="link link-hover">Academy</a>
+          <a class="link link-hover">Private Lesson</a>
+          <a class="link link-hover">Hockeys for kids</a>
+          <a class="link link-hover">Hockeys for Adult</a>
+        </nav>
+      </footer>
+    <!-- Footer Section End -->
+  </body>
 </html>
